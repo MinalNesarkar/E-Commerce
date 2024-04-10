@@ -1,0 +1,14 @@
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td {
+    background: #86dbd7;
+    padding: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100px;
+    border: solid 1px #666;
+  }

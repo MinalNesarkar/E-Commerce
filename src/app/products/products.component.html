@@ -1,0 +1,12 @@
+<div class="cart" id="div1" *ngFor="let pro of Productcart">
+  <img src="{{ pro.imgpath }}" alt="image" />
+  <div class="container">
+    <h4>
+      <b>{{ pro.PName }}</b>
+    </h4>
+    <p>{{ pro.pPrice }}</p>
+    <p>{{ pro.Pinfo }}</p>
+    <br />
+    <button style="width: 200px; margin-left: 23px;">Add To Cart</button>
+  </div>
+</div>
